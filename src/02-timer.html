@@ -5,29 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/timer.css" />
+
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
+    <h1>Coundown <strong>Timer</strong></h1>
+
     <input type="text" id="datetime-picker" />
     <button type="button" data-start>Start</button>
 
-    <div class="timer">
-      <div class="field">
-        <span class="value" data-days>00</span>
-        <span class="label">Days</span>
+    <div class="timer countdown">
+      <div class="field bloc-time hours">
+        <div class="figure">
+          <span class="value digit" data-days>00</span>
+          <span class="label count-title">Days</span>
+        </div>
       </div>
-      <div class="field">
-        <span class="value" data-hours>00</span>
-        <span class="label">Hours</span>
+      <div class="field bloc-time hours">
+        <div class="figure">
+          <span class="value digit" data-hours>00</span>
+          <span class="label count-title">Hours</span>
+        </div>
       </div>
-      <div class="field">
-        <span class="value" data-minutes>00</span>
-        <span class="label">Minutes</span>
+      <div class="field bloc-time hours">
+        <div class="figure">
+          <span class="value digit" data-minutes>00</span>
+          <span class="label count-title">Minutes</span>
+        </div>
       </div>
-      <div class="field">
-        <span class="value" data-seconds>00</span>
-        <span class="label">Seconds</span>
+      <div class="field bloc-time hours">
+        <div class="figure">
+          <span class="value digit" data-seconds>00</span>
+          <span class="label count-title">Seconds</span>
+        </div>  
       </div>
     </div>
 
